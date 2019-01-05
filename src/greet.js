@@ -1,3 +1,5 @@
-const greeting = 'hello world';
+const getGreeting = function(name){
+    return 'hello ' + name;
+};
 
-export default greeting;
+export default getGreeting;

@@ -7,3 +7,5 @@
 
 #try executing command npm run build
 # and then node dist/app.bundle.js (should pring hello world)
+
+#good blog at https://www.valentinog.com/blog/react-webpack-babel/
