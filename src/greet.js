@@ -1,5 +1,3 @@
-const getGreeting = function(name){
-    return 'hello ' + name;
-};
+const getGreeting = name => `hello ${name}`;
 
 export default getGreeting;

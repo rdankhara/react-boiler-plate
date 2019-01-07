@@ -4,12 +4,21 @@
   "description": "react boiler plate",
   "main": "index.js",
   "scripts": {
-    "build" : "webpack",
+    "build": "webpack",
+    "rn" : "node dist/app.bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rdankhara/react-boiler-plate.git"
   },
   "author": "rajnikant",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0"
   }
