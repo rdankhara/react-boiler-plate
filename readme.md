@@ -35,3 +35,5 @@
 #install html-webpack-plugin using command npm i -D html-webpack-plugin
 #create template index.html and configure webpack html plugin to accept template as parameter.
 #npm run build and then open dist/index.html it should render app component
+
+#add script template to run webpack in watch mode with mode to run in development mode
