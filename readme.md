@@ -41,3 +41,7 @@
 #seperating webpack.config for different environments
 #install webpack-merge using npm i -D webpack-merge
 #rename original webpack.config.js file to webpack.config.base.js 
+
+#install webpack dev server using command npm i -D webpack-dev-server
+#update package.json to use command webpack-dev-server which does run in watch mode.
+#open flag in dev command should open the html page from dist folder after compiling js
