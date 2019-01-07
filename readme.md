@@ -47,3 +47,6 @@
 #open flag in dev command should open the html page from dist folder after compiling js
 
 #added css loader and style loader using comman npm i -D css-loader style-loader
+
+#using react hot loader to update changes without reseting state
+#npm i -S react-hot-loader 
