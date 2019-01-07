@@ -37,3 +37,7 @@
 #npm run build and then open dist/index.html it should render app component
 
 #add script template to run webpack in watch mode with mode to run in development mode
+
+#seperating webpack.config for different environments
+#install webpack-merge using npm i -D webpack-merge
+#rename original webpack.config.js file to webpack.config.base.js 
