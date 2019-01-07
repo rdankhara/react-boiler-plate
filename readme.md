@@ -27,3 +27,11 @@
 
 #install babel loader using command npm i -D babel-loader
 #modify webpack.config.js to add module with preset rule
+
+#install react dependency by command npm i -S react react-dom prop-type
+#install babel react preset using command npm i -D @babel/preset-react
+#update webpack.config.js by adding react preset '@babel/preset-react'
+
+#install html-webpack-plugin using command npm i -D html-webpack-plugin
+#create template index.html and configure webpack html plugin to accept template as parameter.
+#npm run build and then open dist/index.html it should render app component
